@@ -45,6 +45,7 @@
   .intro {
     margin-left: 24px;
     margin-right: 24px;
+    margin-bottom: 0;
   }
 
   .intro__title {
