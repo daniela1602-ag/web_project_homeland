@@ -51,6 +51,9 @@
   grid-area: image;
   box-shadow: 10px 10px 25px 0px #00000080;
 }
+.places__image:hover {
+  opacity: 0.5;
+}
 
 .places__description {
   grid-area: description;
@@ -75,7 +78,7 @@
 }
 
 .places__button-link:hover {
-  background: #003a7b;
+  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
 @media screen and (min-width: 544px) and (max-width: 1024px) {
