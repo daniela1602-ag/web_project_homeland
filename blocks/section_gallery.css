@@ -24,8 +24,10 @@
 @media screen and (min-width: 320px) and (max-width: 544px) {
   .gallery {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 288px;
     grid-template-rows: repeat(8, 1fr);
     row-gap: 12px;
+    margin-left: 8px;
+    margin-bottom: 62px;
   }
 }
