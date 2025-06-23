@@ -41,6 +41,7 @@
 .places__artist-link {
   text-decoration: none;
   color: #fff;
+  margin: 0;
 }
 
 .places__image {
@@ -83,7 +84,7 @@
 
 @media screen and (min-width: 544px) and (max-width: 1024px) {
   .places {
-    margin-left: 24px;
+    margin-left: 10px;
     max-width: 720px;
   }
   .places__site {
