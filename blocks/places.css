@@ -1,6 +1,6 @@
 .places {
   max-width: 1000px;
-  margin-left: 200px;
+  margin: 0 auto;
 }
 
 .places__site {

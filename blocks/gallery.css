@@ -1,11 +1,10 @@
 .gallery {
   max-width: 1190px;
   display: grid;
-  grid-template-columns: repeat(4, 20%);
-  grid-template-rows: 50% 50%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 16px;
-  margin-left: 200px;
-  margin-bottom: 92px;
+  margin: 0 auto 92px;
 }
 
 .gallery__image {
