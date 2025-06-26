@@ -84,17 +84,16 @@
 
 @media screen and (min-width: 544px) and (max-width: 1024px) {
   .places {
-    margin-left: 10px;
     max-width: 720px;
   }
   .places__site {
     display: grid;
-    grid-template-columns: 340px 352px;
-    grid-template-rows: 70px 370px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 340px auto;
     grid-template-areas:
       "title artists"
       "image description"
-      "button";
+      "button description";
   }
   .places__title {
     grid-area: title;
@@ -110,12 +109,12 @@
   }
   .places__description {
     grid-area: description;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5;
   }
   .places__button-link {
     grid-area: button;
-    margin-bottom: 60px;
+    margin-bottom: 72px;
   }
 }
 
@@ -125,8 +124,8 @@
   }
   .places__site {
     display: grid;
-    grid-template-columns: 289px;
-    grid-template-rows: 45px auto 289px 1fr auto;
+    grid-template-columns: 100%;
+    grid-template-rows: 45px auto 320px 1fr auto;
     grid-template-areas:
       "title"
       "artists"
@@ -149,13 +148,13 @@
   }
   .places__image {
     grid-area: image;
-    margin-left: 8px;
   }
   .places__description {
     grid-area: description;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.5;
     margin-left: 16px;
+    margin-right: 16px;
   }
   .places__button-link {
     grid-area: button;
